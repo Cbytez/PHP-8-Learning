@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: teal;
+        }
+
+        h1 {
+            color: teal;
+            text-align: center;
+        }
+
+        h2 {
+            color: teal;
+            text-align: center;
+        }
+
+        p {
+            color: teal;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>PHP 8 Learning</h1>
