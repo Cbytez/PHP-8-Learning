@@ -12,13 +12,13 @@
 </html>
 
 <?php
-echo "Hello World";
-echo "<br>";
+    echo "Hello World";
+    echo "<br>";
 
-$name = "Chris";
-$age = 50;
+    $name = "Chris";
+    $age = 50;
 
-echo "My name is:" . $name . "<br>";
-echo "My age is:" . $age . "<br>";
+    echo "My name is:" . $name . "<br>";
+    echo "My age is:" . $age . "<br>";
 
 ?>
