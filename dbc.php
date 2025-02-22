@@ -8,10 +8,10 @@ $dbname = "Learning_PHP_8";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 
-if(!$conn){
-    die("Connection failed: " . $conn->connect_error);
-}
+// if(!$conn){
+//     die("Connection failed: " . $conn->connect_error);
+// }
 
-echo "Connected successfully!";
+// echo "Connected successfully!";
 
 $conn->close();
