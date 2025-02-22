@@ -1,14 +1,14 @@
 <?php
 
 $servername = "localhost";
-$username = "Fatality";
+$username = "fatality";
 $password = "Yennefer0974";
 $dbname = "Learning_PHP_8";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 
-if($conn->connect_error){
+if(!$conn){
     die("Connection failed: " . $conn->connect_error);
 }
 
